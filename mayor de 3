@@ -4,11 +4,11 @@
 int main()
 { clrscr();
 int num1=0,num2=0,num3=0;
-printf("\nInserte el primer numero:");
+printf("\nIntroduzca el el primer numero:");
 scanf("%d",&num1);
-printf("\nInserte el segundo numero:");
+printf("\nIntroduzca el segundo numero:");
 scanf("%d",&num2);
-printf("\nInserte el tercer numero:");
+printf("\nIntroduzca el tercer numero:");
 scanf("%d",&num3);
 
 if(num1>num2 && num1>num3)
@@ -18,10 +18,10 @@ printf("\n\nEl mayor es:%d",num1);
 else
 if(num2>num1 && num2>num3)
 {
-printf("\n\nEl mayor es:%d",num2);
+printf("\n\nEl numero mayor es:%d",num2);
 }
 else
-printf("\n\nEl mayor es:%d\n",num3);
+printf("\n\nEl numero mayor es:%d\n",num3);
 
 return 0;
 getch();
